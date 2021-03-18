@@ -20,27 +20,72 @@ body{
  .cards{
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    ;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   background-image: cover;
+    display: grid inline-grid;
+    align-items: center;
 
- }
- .card1{
+  } 
+  
+   .card1{
+     
+      justify-content: space-between;
+      align-items: left;
+      text-align: center;
+      display: inline-block;
+      margin: 0 0 10px 25px;
+      padding-left: 60px;
+  
+   }
+   .card2{
     
-    height: 400px;
-    width: 300px;
-
- }
- .card2{
+     justify-content: space-between;
+      text-align: left;
+      display: inline-block;
+      margin: 0 0 10px 25px;
+      padding-left: 60px;
+   }
+   .card3{
+        
     
-    height: 400px;
-    width: 300px;
+     justify-content: space-between;
+      align-items: left;
+      text-align: center;
+      display: inline-block;
+      margin: 0 0 10px 25px;
+      padding-left: 60px;
+  
+   }
+  
+  
+   main{
+      
+      min-height: 300px; 
+      display: flex;
+      align-items: center;
+   } 
+   
+   .herobox1 {
+       width:50% ;
+  padding-right:0px ;
+       flex: 2;
+   }
+  
+   .herobox2 {
+      width:50% ;
+      flex: 1;
+  }
+  img{
+      padding:25px;
+      width: 300px;
+      background-image: cover;
+      display: flex;  
+     justify-content: space-between;
+      align-items: center;
+  }
 
- }
- .card3{
-   height: 400px;
-    width: 300px;
-
- }
+    
 
  .nav-list{
     flex-direction: row;
@@ -78,16 +123,23 @@ padding-right:0px ;
     width:50% ;
     flex: 1;
 }
-img{
-    padding:25px;
-    width: 300px;
-    height: 250px;
+button{
+    border: none;
+    background-color: #80D0C7;
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
 }
+
 h1{
-    font-size: 52px;
+    font-size: 40px;
     color: white;
     font-family: sans-serif;
-
+    justify-content: space-around;
+    align-items:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
 } 
 h2{
     font-size:25px;
